@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <web-app>
-<!-- Default Web.xml supplied by Composer 
-Add servlet, context-param fragments specific to your WebServer.
-Incase of Tomcat, servelt info can be found in tomcat_generated_web.xml inside the WEB-INF folder.
- -->
+	<!-- Default Web.xml supplied by Composer Add servlet, context-param fragments 
+		specific to your WebServer. Incase of Tomcat, servelt info can be found in 
+		tomcat_generated_web.xml inside the WEB-INF folder. -->
 	<display-name>Composer</display-name>
 
-	<!--  initializes a thread pool when starting up the servlet context -->
+	<!-- initializes a thread pool when starting up the servlet context -->
 	<listener>
 		<listener-class>
 			com.genesyslab.studio.backendlogic.ComposerServletContextListener
