@@ -121,12 +121,12 @@
     		</prompt>
 		</block>
     	<block>
-    		<goto next="#Log1" />
+    		<goto next="#Log2" />
     	</block>
 	</form>
 
 	<!-- This is the Log block -->
-	<form id="Log1">
+	<form id="Log2">
 		<block>
 			<log gvp:level="1">
 				<value expr="'nino'"/>
