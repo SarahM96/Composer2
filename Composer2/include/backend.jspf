@@ -1,6 +1,7 @@
-<%@page session="false" %>
+<%@page session="false"%>
 <%@page import="org.json.JSONObject"%>
-<%@page import="com.genesyslab.studio.backendlogic.GVPHttpRequestProcessor"%>
+<%@page
+	import="com.genesyslab.studio.backendlogic.GVPHttpRequestProcessor"%>
 <%@page import="java.util.Map"%>
 
 <%
