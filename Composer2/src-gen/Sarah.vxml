@@ -121,6 +121,18 @@
     		</prompt>
 		</block>
     	<block>
+    		<goto next="#Log1" />
+    	</block>
+	</form>
+
+	<!-- This is the Log block -->
+	<form id="Log1">
+		<block>
+			<log gvp:level="1">
+				<value expr="'nino'"/>
+			</log>
+    	</block>
+    	<block>
     		<goto next="#Exit1" />
     	</block>
 	</form>

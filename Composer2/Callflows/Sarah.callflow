@@ -33,7 +33,9 @@
     <blocks xmi:type="gvp:PromptBlock" xmi:id="_TZdyAMXYEeq-zeQIA8H6IQ" name="Prompt1" category="Prompt">
       <prompts xmi:type="datatypes_1:PromptItem" xmi:id="_fJhfsMXYEeq-zeQIA8H6IQ" name="Prompt1_PromptMsg1" value="'hiiiiiiiiiii.wav'" interpretAs="Audio" type="Variable" format="" armBaseUrl="" armPersonalityID="" armFileExt="" customInterpretAsItem=""/>
     </blocks>
-    <blocks xmi:type="gvp:LogBlock" xmi:id="_OgTCoMXjEeq-zeQIA8H6IQ" name="Log1" category="Log"/>
+    <blocks xmi:type="gvp:LogBlock" xmi:id="_OgTCoMXjEeq-zeQIA8H6IQ" name="Log1" category="Log">
+      <loggingDetails>'nino'</loggingDetails>
+    </blocks>
     <links xmi:type="gvp:CallflowOutputLink" xmi:id="_TZuQsMXYEeq-zeQIA8H6IQ" fromBlock="_0TDncMlhEeKE2tP5OBlA8w" toBlock="_TZdyAMXYEeq-zeQIA8H6IQ"/>
     <links xmi:type="gvp:CallflowOutputLink" xmi:id="_OgcMkMXjEeq-zeQIA8H6IQ" fromBlock="_TZdyAMXYEeq-zeQIA8H6IQ" toBlock="_OgTCoMXjEeq-zeQIA8H6IQ"/>
     <links xmi:type="gvp:CallflowOutputLink" xmi:id="_O4F3kMXjEeq-zeQIA8H6IQ" fromBlock="_OgTCoMXjEeq-zeQIA8H6IQ" toBlock="_0afsMMlhEeKE2tP5OBlA8w"/>
