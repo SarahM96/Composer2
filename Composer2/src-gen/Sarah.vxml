@@ -121,12 +121,18 @@
     		</prompt>
 		</block>
     	<block>
-    		<goto next="#Log1" />
+    		<goto next="#Prompt2" />
     	</block>
 	</form>
 
-	<!-- This is the Log block -->
-	<form id="Log1">
+	<!-- This is the Prompt block -->
+	<form id="Prompt2">
+        
+    	<block name="Prompt2P0">
+  			<prompt bargein="true"  gvp:langexpr="AppState.APP_LANGUAGE">
+				<audio expr="getAudioURI('KK')"></audio>
+    		</prompt>
+		</block>
     	<block>
     		<goto next="#Exit1" />
     	</block>
