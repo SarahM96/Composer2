@@ -121,13 +121,6 @@
     		</prompt>
 		</block>
     	<block>
-    		<goto next="#Log1" />
-    	</block>
-	</form>
-
-	<!-- This is the Log block -->
-	<form id="Log1">
-    	<block>
     		<goto next="#Exit1" />
     	</block>
 	</form>
